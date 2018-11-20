@@ -6,7 +6,7 @@ public class Cat {
         return name;
     }
 
-    public void setName(newName) {
+    public void setName(String newName) {
         name = newName;
     }
     
@@ -14,8 +14,11 @@ public class Cat {
         return weight;
     }
     
-    public void setWeight(newWeight) {
+    public void setWeight(double newWeight) {
         weight = newWeight;
+    }
+    void meow() {
+        System.out.println("Meow");
     }
 }
 
