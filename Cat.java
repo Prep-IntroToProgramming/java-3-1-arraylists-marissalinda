@@ -17,6 +17,7 @@ public class Cat {
     public void setWeight(double newWeight) {
         weight = newWeight;
     }
+    
     void meow() {
         System.out.println("Meow");
     }

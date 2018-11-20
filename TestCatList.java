@@ -6,5 +6,9 @@ public class TestCatList
       for(int i=0; i<4; i++){
           CatList.add(new Cat());
         }
+      CatList.get(0).setName("John");
+      CatList.get(1).setName("Mary");
+      CatList.get(2).setName("Belle");
+      CatList.get(3).setName("Dex");
     }
 }
