@@ -21,5 +21,5 @@ public class Cat {
     void meow() { //method that just prints out meow
         System.out.println("Meow");
     }
-
+}
 

@@ -22,4 +22,4 @@ public class TestCatList
         System.out.println(CatList.get(3).getName() + " weighs " + CatList.get(3).getWeight() + " pounds");
         CatList.get(3).meow();
     }
-
+}
